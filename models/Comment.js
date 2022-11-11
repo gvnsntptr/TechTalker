@@ -10,9 +10,8 @@ Comment.init(
       allowNull: false
     }
   },
-  {
-    sequelize
-  }
+  
+  {sequelize}
 );
 
 module.exports = Comment;
